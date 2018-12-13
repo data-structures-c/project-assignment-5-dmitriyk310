@@ -1,0 +1,6 @@
+repeat,type of data,insert,selection,bubble,merge,size of array
+n=100,random,0.0699,0.0949,0.537,0.00439,n=10k
+n=100,almost sort m=2,1.90E-05,0.0921,0.103,0.00355,n=10k
+n=100,almost sort m=5,0.000165,0.0924,0.102,0.00356,n=10k
+n=100,almost sort m=10,0.000251,0.0929,0.101,0.00358,n=10k
+n=100,sorted in reverse,0.136,0.103,0.845,0.00367,n=10k

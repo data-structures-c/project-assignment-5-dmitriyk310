@@ -1,0 +1,5 @@
+Dmitriy Khristoforov
+SMC/December 2018
+data structures/Mangul
+
+From the results I noticed, Merge sorting was the best for sorting a random array of 10k size in ascending numerical order. For almost sorted arrays of this size, with m=2,m=5,m=10 insertion sorting was the fastest by far. For an array sorted in reverse order, to flip it back to a normal sort, the merge sort was again the fastest. Bubble sorting was the slowest sort method for every single case. Selection sorting was never fastest or slowest, it was beat by merge sorting in every category and insertion sorting in every category except reverse order. Selection sorting almost benefitted the least from an almost sort, only gaining a few percent of time for any of the almost sorts. 
